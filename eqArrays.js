@@ -9,8 +9,6 @@ const assertEqual = function(actual, expected) {
 const eqArrays = function (arrOne, arrTwo) {
   let checked = true;
 // check if array.length is same 
-// console.log('lenght1',arrOne.length);
-// console.log('length2',arrTwo.length);
   if(arrOne.length === arrTwo.length) {
     for (let i = 0; i < arrOne.length; i++) {
       if(arrOne[i] === arrTwo[i]){

@@ -24,6 +24,7 @@ const assertArraysEqual = function(actual, expected){
     console.log(`🔴 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
 // return all the indices in the string where each character is found 
 
 const letterPositions = function(sentence) {
